@@ -1,5 +1,5 @@
-import { Tabs } from 'expo-router';
-import { Text } from 'react-native';
+import { Tabs } from "expo-router";
+import { Text } from "react-native";
 
 export default function TabsLayout() {
   return (
@@ -7,25 +7,25 @@ export default function TabsLayout() {
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: '#fff',
+          backgroundColor: "#fff",
           borderTopWidth: 1,
-          borderTopColor: '#e0e0e0',
+          borderTopColor: "#e0e0e0",
         },
-        tabBarActiveTintColor: '#007AFF',
-        tabBarInactiveTintColor: '#888',
+        tabBarActiveTintColor: "#007AFF",
+        tabBarInactiveTintColor: "#888",
       }}
     >
       <Tabs.Screen
         name="home"
         options={{
-          title: 'Home',
+          title: "Home",
           tabBarIcon: ({ color }) => <Text style={{ fontSize: 24 }}>🏠</Text>,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
-          title: 'Perfil',
+          title: "Perfil",
           tabBarIcon: ({ color }) => <Text style={{ fontSize: 24 }}>👤</Text>,
         }}
       />
