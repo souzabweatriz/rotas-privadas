@@ -184,4 +184,3 @@ npx expo start --clear
 
 **Desenvolvido com ❤️ usando Expo Router + AsyncStorage**
 
-🎉 Versão 2.0 - Muito mais poderosa!
